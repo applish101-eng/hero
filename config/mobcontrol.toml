@@ -824,6 +824,19 @@ drop=0
 name="minecraft:diamond_chestplate"
 weight=1
 drop=0
+
+run=100                  # % chance to attempt spawning each time the rule runs (100 = always)
+repeat=[50,100]          # How often (in ticks) to attempt spawning (50–100 ticks ≈ 2.5–5 seconds)
+cool-down=[200,400]      # Time after a successful spawn before this rule can run again (200–400 ticks ≈ 10–20 seconds)
+
+spawn.count=8            # Number of zombies to spawn per spawn attempt
+spawn.count-spread="yes" # Spread spawned zombies out instead of stacking them in one spot
+spawn.distance=[5,25]    # Horizontal distance (XZ) from the player or spawn source where zombies can appear
+spawn.distance-y=0       # Vertical offset relative to the spawn source (0 = same Y level)
+spawn.at-y=[0,80]        # Y-level range in the world where zombies can spawn (ground to ~height limit)
+spawn.point="mobcontrol:ground"  # Zombies must spawn on solid ground
+spawn.convert="minecraft:zombie" # Ensures spawned mobs are standard zombies
+spawn.group="zombie-group"        # Group name for spawned zombies; can be used to spawn multiple together
 ################################################################################
 # Add your custom rules above the previous line
 ################################################################################

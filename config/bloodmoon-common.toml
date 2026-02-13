@@ -5,7 +5,7 @@
 	bloodMoonChance = 0.15
 	#Multiplier for mob spawns during blood moon
 	#Range: 1 ~ 10
-	mobSpawnMultiplier = 2
+	mobSpawnMultiplier = 7
 	#Show chat message when blood moon starts
 	showChatMessage = true
 	#Prevent sleeping during blood moon
