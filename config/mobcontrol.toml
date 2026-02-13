@@ -787,16 +787,43 @@ name="minecraft:zombie"
 type="all"
 
 # Health: Starting health of the zombie (higher = more hits to kill)
-set.health=25
+set.health=30
 
 # Movement Speed: How fast the zombie moves (higher = faster, more dangerous)
 set.movement-speed=0.30
 
 # Break Block: Probability (0-100) that zombie will break blocks
-set.break-block=2
+set.break-block=6
 
 set.baby=0
 
+[[mob.rule.head]]
+name="minecraft:air"
+weight=6
+
+[[mob.rule.head]]
+name="minecraft:iron_helmet"
+weight=3
+drop=0
+
+[[mob.rule.head]]
+name="minecraft:diamond_helmet"
+weight=1
+drop=0
+
+[[mob.rule.chest]]
+name="minecraft:air"
+weight=6
+
+[[mob.rule.chest]]
+name="minecraft:iron_chestplate"
+weight=3
+drop=0
+
+[[mob.rule.chest]]
+name="minecraft:diamond_chestplate"
+weight=1
+drop=0
 ################################################################################
 # Add your custom rules above the previous line
 ################################################################################
