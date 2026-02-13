@@ -983,6 +983,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2026-02-12 19:11:33 +0000",
+      "chicken": "2026-02-13 14:42:22 +0000",
       "cooked_mutton": "2026-02-13 11:13:53 +0000",
       "cooked_beef": "2026-02-12 12:21:41 +0000",
       "porkchop": "2026-02-12 12:36:36 +0000",
@@ -5181,58 +5182,15 @@
     },
     "done": true
   },
-  "spartanweaponry:katana": {
-    "criteria": {
-      "has_katana": "2026-02-13 14:04:58 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/copper_battle_hammer": {
-    "criteria": {
-      "has_copper_ingot": "2026-02-13 13:18:43 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/slicing/red_dye_from_sweet_berries": {
-    "criteria": {
-      "has_sweet_berries": "2026-02-13 12:10:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:crimson_forest": "2026-02-13 12:39:40 +0000",
-      "minecraft:warped_forest": "2026-02-13 12:31:57 +0000"
-    },
-    "done": false
-  },
-  "spartanshields:recipes/obsidian_tower_shield": {
-    "criteria": {
-      "has_obsidian": "2026-02-13 12:15:15 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/grease_ball": {
     "criteria": {
       "has_meat": "2026-02-13 12:05:20 +0000"
     },
     "done": true
   },
-  "spartanweaponry:scythe": {
+  "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
     "criteria": {
-      "has_scythe": "2026-02-13 13:48:06 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/copper_boomerang": {
-    "criteria": {
-      "has_copper_ingot": "2026-02-13 13:18:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2026-02-13 12:31:56 +0000"
+      "has_light_blue_terracotta": "2026-02-13 12:08:30 +0000"
     },
     "done": true
   },
@@ -5242,27 +5200,33 @@
     },
     "done": true
   },
-  "spartanshields:recipes/obsidian_basic_shield": {
+  "refurbished_furniture:recipes/misc/slicing/red_dye_from_sweet_berries": {
     "criteria": {
-      "has_obsidian": "2026-02-13 12:15:15 +0000"
+      "has_sweet_berries": "2026-02-13 12:10:17 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/copper_warhammer": {
+  "refurbished_furniture:recipes/frying/sweet_berry_jam": {
     "criteria": {
-      "has_copper_ingot": "2026-02-13 13:18:43 +0000"
+      "has_ingredient": "2026-02-13 12:10:17 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:spear": {
+    "criteria": {
+      "has_spear": "2026-02-13 12:12:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:greatsword": {
+    "criteria": {
+      "has_greatsword": "2026-02-13 12:13:15 +0000"
     },
     "done": true
   },
   "spartanweaponry:battleaxe": {
     "criteria": {
       "has_battleaxe": "2026-02-13 12:14:32 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/copper_glaive": {
-    "criteria": {
-      "has_copper_ingot": "2026-02-13 13:18:43 +0000"
     },
     "done": true
   },
@@ -5275,6 +5239,145 @@
   "refurbished_furniture:recipes/frying/glow_berry_jam": {
     "criteria": {
       "has_ingredient": "2026-02-13 12:14:58 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/obsidian_tower_shield": {
+    "criteria": {
+      "has_obsidian": "2026-02-13 12:15:15 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/obsidian_basic_shield": {
+    "criteria": {
+      "has_obsidian": "2026-02-13 12:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-02-13 12:15:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2026-02-13 12:15:15 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/explosive_charge": {
+    "criteria": {
+      "has_gunpowder": "2026-02-13 12:15:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-02-13 12:24:51 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-02-13 12:24:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-02-13 12:31:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-02-13 12:31:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-02-13 12:39:40 +0000",
+      "minecraft:warped_forest": "2026-02-13 12:31:57 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2026-02-13 12:35:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2026-02-13 12:35:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2026-02-13 12:35:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-02-13 12:35:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-02-13 12:35:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-02-13 12:35:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-02-13 12:39:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-02-13 12:48:38 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/spruce": {
+    "criteria": {
+      "has_wood": "2026-02-13 12:48:38 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_battle_hammer": {
+    "criteria": {
+      "has_copper_ingot": "2026-02-13 13:18:43 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_boomerang": {
+    "criteria": {
+      "has_copper_ingot": "2026-02-13 13:18:43 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_warhammer": {
+    "criteria": {
+      "has_copper_ingot": "2026-02-13 13:18:43 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_glaive": {
+    "criteria": {
+      "has_copper_ingot": "2026-02-13 13:18:43 +0000"
     },
     "done": true
   },
@@ -5296,18 +5399,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2026-02-13 12:48:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye_from_wither_rose": {
-    "criteria": {
-      "has_wither_rose": "2026-02-13 12:24:51 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/copper_lance": {
     "criteria": {
       "has_copper_ingot": "2026-02-13 13:18:43 +0000"
@@ -5320,33 +5411,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/diorite": {
-    "criteria": {
-      "has_quartz": "2026-02-13 12:35:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite": {
-    "criteria": {
-      "has_quartz": "2026-02-13 12:35:37 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/explosive_charge": {
-    "criteria": {
-      "has_gunpowder": "2026-02-13 12:15:28 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/copper_tomahawk": {
     "criteria": {
       "has_copper_ingot": "2026-02-13 13:18:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_block": {
-    "criteria": {
-      "has_quartz": "2026-02-13 12:35:37 +0000"
     },
     "done": true
   },
@@ -5356,45 +5423,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/daylight_detector": {
-    "criteria": {
-      "has_quartz": "2026-02-13 12:35:37 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:spear": {
-    "criteria": {
-      "has_spear": "2026-02-13 12:12:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/observer": {
-    "criteria": {
-      "has_quartz": "2026-02-13 12:35:37 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/copper_spear": {
     "criteria": {
       "has_copper_ingot": "2026-02-13 13:18:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/comparator": {
-    "criteria": {
-      "has_quartz": "2026-02-13 12:35:37 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:greatsword": {
-    "criteria": {
-      "has_greatsword": "2026-02-13 12:13:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/tame_an_animal": {
-    "criteria": {
-      "tamed_animal": "2026-02-13 14:03:43 +0000"
     },
     "done": true
   },
@@ -5416,27 +5447,9 @@
     },
     "done": true
   },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2026-02-13 12:31:56 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/copper_dagger": {
     "criteria": {
       "has_copper_ingot": "2026-02-13 13:18:43 +0000"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/spruce": {
-    "criteria": {
-      "has_wood": "2026-02-13 12:48:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2026-02-13 12:15:15 +0000"
     },
     "done": true
   },
@@ -5464,12 +5477,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
-    "criteria": {
-      "has_light_blue_terracotta": "2026-02-13 12:08:30 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/copper_longsword": {
     "criteria": {
       "has_copper_ingot": "2026-02-13 13:18:43 +0000"
@@ -5488,33 +5495,27 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/slicing/black_dye_from_wither_rose": {
-    "criteria": {
-      "has_wither_rose": "2026-02-13 12:24:51 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/copper_throwing_knife": {
     "criteria": {
       "has_copper_ingot": "2026-02-13 13:18:43 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/frying/sweet_berry_jam": {
+  "spartanweaponry:scythe": {
     "criteria": {
-      "has_ingredient": "2026-02-13 12:10:17 +0000"
+      "has_scythe": "2026-02-13 13:48:06 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "minecraft:husbandry/tame_an_animal": {
     "criteria": {
-      "has_obsidian": "2026-02-13 12:15:15 +0000"
+      "tamed_animal": "2026-02-13 14:03:43 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/nether_brick": {
+  "spartanweaponry:katana": {
     "criteria": {
-      "has_netherrack": "2026-02-13 12:39:58 +0000"
+      "has_katana": "2026-02-13 14:04:58 +0000"
     },
     "done": true
   },
