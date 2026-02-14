@@ -783,8 +783,15 @@ weight=3
 name="minecraft:zombie"
 
 [[mob.rule]]
-# Zombie settings - Edit the parameters below
-type="all"
+type="control"
+dimension="minecraft:overworld"
+
+run=100                 # 100% chance to run
+repeat=6000              # Every 10 seconds (20 ticks = 1 sec)
+
+spawn.count=[2,6]       # Spawn 2–4 zombies at once
+spawn.distance=[24,48]  # Around player distance
+spawn.point="mobcontrol:ground"
 
 # Health: Starting health of the zombie (higher = more hits to kill)
 set.health=30
