@@ -1,239 +1,190 @@
-[17Feb2026 16:09:31.290] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.16, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[17Feb2026 16:09:31.295] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 25.0.1 by Microsoft; OS Linux arch amd64 version 6.8.0-1044-azure
-[17Feb2026 16:09:33.416] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[17Feb2026 16:09:33.536] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/hero/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[17Feb2026 16:09:33.756] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/hero/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
-[17Feb2026 16:09:33.974] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hero/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.16/fmlcore-1.20.1-47.4.16.jar is missing mods.toml file
-[17Feb2026 16:09:33.975] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hero/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.16/javafmllanguage-1.20.1-47.4.16.jar is missing mods.toml file
-[17Feb2026 16:09:33.977] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hero/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.16/lowcodelanguage-1.20.1-47.4.16.jar is missing mods.toml file
-[17Feb2026 16:09:33.978] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hero/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.16/mclanguage-1.20.1-47.4.16.jar is missing mods.toml file
-[17Feb2026 16:09:34.593] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
-[17Feb2026 16:09:37.216] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[17Feb2026 16:09:37.242] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
-[17Feb2026 16:09:37.254] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[17Feb2026 16:09:37.549] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Feb2026 16:09:38.529] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[17Feb2026 16:09:44.315] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zdd000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[17Feb2026 16:09:45.590] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
-[17Feb2026 16:09:45.592] [modloading-worker-0/INFO] [Mob Control/]: Mob Control, Platform: Forge, Env: production
-[17Feb2026 16:09:45.597] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[17Feb2026 16:09:45.603] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[17Feb2026 16:09:45.740] [modloading-worker-0/INFO] [com.yourname.bloodmoon.BloodMoonMod/]: Blood Moon Mod initialized!
-[17Feb2026 16:09:45.757] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[17Feb2026 16:09:45.778] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.ysns.config.DisabledEntities.
-[17Feb2026 16:09:45.779] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.ysns.config.DisabledEntities read successfully.
-[17Feb2026 16:09:45.781] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.ysns.config.PerDimensionEntities.
-[17Feb2026 16:09:45.782] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.ysns.config.PerDimensionEntities read successfully.
-[17Feb2026 16:09:45.790] [modloading-worker-0/INFO] [ysns/]: You Shall Not Spawn's Config initialized
-[17Feb2026 16:09:45.807] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[17Feb2026 16:09:45.874] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
-[17Feb2026 16:09:45.874] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 12
-[17Feb2026 16:09:45.875] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 12 has been initalized!
-[17Feb2026 16:09:46.033] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/hero/config/yacl.json5'
-[17Feb2026 16:09:46.112] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.16, for MC 1.20.1 with MCP 20230612.114412
-[17Feb2026 16:09:46.113] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.16 Initialized
-[17Feb2026 16:09:47.532] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[17Feb2026 16:09:47.538] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[17Feb2026 16:09:47.559] [main/INFO] [Spartan Weaponry/]: Updating config settings!
-[17Feb2026 16:09:47.581] [Thread-1/INFO] [Spartan Weaponry/]: Updating config settings!
-[17Feb2026 16:09:47.585] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[17Feb2026 16:09:47.610] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
-[17Feb2026 16:09:47.809] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[17Feb2026 16:09:47.810] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[17Feb2026 16:09:47.810] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[17Feb2026 16:09:47.810] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[17Feb2026 16:09:47.811] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[17Feb2026 16:09:47.811] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[17Feb2026 16:09:47.811] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[17Feb2026 16:09:47.811] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
-[17Feb2026 16:09:47.811] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
-[17Feb2026 16:09:47.916] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[17Feb2026 16:09:48.365] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_craftablegunpowder] Starting version check at https://api.modrinth.com/updates/A2rTbvVd/forge_updates.json
-[17Feb2026 16:09:49.197] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_craftablegunpowder] Found status: OUTDATED Current: 1.1 Target: 1.1+mod
-[17Feb2026 16:09:49.197] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
-[17Feb2026 16:09:49.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
-[17Feb2026 16:09:49.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
-[17Feb2026 16:09:49.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.4.1 Target: null
-[17Feb2026 16:09:49.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[17Feb2026 16:09:50.506] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.16 Target: null
-[17Feb2026 16:09:50.576] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17Feb2026 16:09:51.597] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/hero/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
-[17Feb2026 16:09:51.597] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/hero/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
-[17Feb2026 16:10:02.825] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/hero/tacz
-[17Feb2026 16:10:02.828] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
-[17Feb2026 16:10:02.828] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
-[17Feb2026 16:10:04.007] [main/INFO] [com.yourname.bloodmoon.BloodMoonMod/]: Blood Moon commands registered
-[17Feb2026 16:10:04.010] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
-[17Feb2026 16:10:04.854] [Worker-Main-3/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
-[17Feb2026 16:10:04.861] [Worker-Main-3/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
-[17Feb2026 16:10:04.893] [Worker-Main-3/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
-[17Feb2026 16:10:04.974] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
-[17Feb2026 16:10:04.974] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
-[17Feb2026 16:10:04.983] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
-[17Feb2026 16:10:04.983] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
-[17Feb2026 16:10:04.992] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
-[17Feb2026 16:10:04.992] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
-[17Feb2026 16:10:05.001] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
-[17Feb2026 16:10:05.001] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
-[17Feb2026 16:10:05.003] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
-[17Feb2026 16:10:05.003] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
-[17Feb2026 16:10:05.005] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
-[17Feb2026 16:10:05.005] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
-[17Feb2026 16:10:05.006] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
-[17Feb2026 16:10:05.006] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
-[17Feb2026 16:10:05.013] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
-[17Feb2026 16:10:05.013] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
-[17Feb2026 16:10:05.013] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
-[17Feb2026 16:10:05.013] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
-[17Feb2026 16:10:05.018] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
-[17Feb2026 16:10:05.018] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
-[17Feb2026 16:10:05.024] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
-[17Feb2026 16:10:05.025] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
-[17Feb2026 16:10:05.028] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
-[17Feb2026 16:10:05.028] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_smelting_silver_weapons as it's serializer returned null
-[17Feb2026 16:10:05.040] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
-[17Feb2026 16:10:05.041] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_blasting_copper_weapons as it's serializer returned null
-[17Feb2026 16:10:05.041] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
-[17Feb2026 16:10:05.041] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
-[17Feb2026 16:10:05.042] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
-[17Feb2026 16:10:05.042] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
-[17Feb2026 16:10:05.046] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
-[17Feb2026 16:10:05.047] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
-[17Feb2026 16:10:05.051] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
-[17Feb2026 16:10:05.051] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
-[17Feb2026 16:10:05.052] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
-[17Feb2026 16:10:05.052] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_smelting_copper_weapons as it's serializer returned null
-[17Feb2026 16:10:05.053] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
-[17Feb2026 16:10:05.053] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
-[17Feb2026 16:10:05.068] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
-[17Feb2026 16:10:05.069] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
-[17Feb2026 16:10:05.070] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
-[17Feb2026 16:10:05.071] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
-[17Feb2026 16:10:05.074] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
-[17Feb2026 16:10:05.074] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
-[17Feb2026 16:10:05.077] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
-[17Feb2026 16:10:05.077] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
-[17Feb2026 16:10:05.078] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
-[17Feb2026 16:10:05.078] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_blasting_silver_weapons as it's serializer returned null
-[17Feb2026 16:10:05.081] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
-[17Feb2026 16:10:05.100] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
-[17Feb2026 16:10:05.120] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
-[17Feb2026 16:10:05.161] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
-[17Feb2026 16:10:05.171] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
-[17Feb2026 16:10:05.206] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2652 advancements
-[17Feb2026 16:10:06.073] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 6.96905ms
-[17Feb2026 16:10:06.079] [main/INFO] [structurify/]: Loading Structurify config...
-[17Feb2026 16:10:06.091] [main/INFO] [structurify/]: Structurify config loaded
-[17Feb2026 16:10:06.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[17Feb2026 16:10:06.173] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[17Feb2026 16:10:06.173] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[17Feb2026 16:10:06.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[17Feb2026 16:10:06.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[17Feb2026 16:10:06.527] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[17Feb2026 16:10:06.648] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17Feb2026 16:10:06.648] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[17Feb2026 16:10:06.648] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17Feb2026 16:10:06.649] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[17Feb2026 16:10:06.720] [Server thread/INFO] [Framework/]: Loading server configs...
-[17Feb2026 16:10:06.728] [Server thread/INFO] [structurify/]: Updating registries...
-[17Feb2026 16:10:06.730] [Server thread/INFO] [structurify/]: Structure registries updated
-[17Feb2026 16:10:06.730] [Server thread/INFO] [structurify/]: Structure Sets registries updated
-[17Feb2026 16:10:06.731] [Server thread/INFO] [structurify/]: Registries updated
-[17Feb2026 16:10:06.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[17Feb2026 16:10:10.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[17Feb2026 16:10:14.411] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:14.432] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:14.468] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:14.489] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:14.509] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:14.515] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:14.531] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:14.542] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:14.786] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:15.479] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:15.717] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Feb2026 16:10:16.217] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[17Feb2026 16:10:16.717] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[17Feb2026 16:10:17.245] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
-[17Feb2026 16:10:17.775] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
-[17Feb2026 16:10:18.008] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7292 ms
-[17Feb2026 16:10:18.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.343s)! For help, type "help"
-[17Feb2026 16:10:18.526] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[17Feb2026 16:10:18.550] [Server thread/WARN] [Mob Control/]: WARNING: Mob ignored due to missing name
-[17Feb2026 16:10:18.560] [Server thread/WARN] [Mob Control/]: WARNING: Ignoring parameter set.movement-speed
-[17Feb2026 16:10:18.561] [Server thread/ERROR] [Mob Control/]: ERROR: For input string: "0.24"
-[17Feb2026 16:10:18.567] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[17Feb2026 16:10:21.203] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[17Feb2026 16:12:16.565] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Cannot run program "stty": Failed to exec spawn helper: pid: 5156, signal: 1, error: 0 (none) 
-Possible reasons:
-  - Spawn helper ran into JDK version mismatch
-  - Spawn helper ran into unexpected internal error
-  - Spawn helper was terminated by another process
-Possible solutions:
-  - Restart JVM, especially after in-place JDK updates
-  - Check system logs for JDK-related errors
-  - Re-install JDK to fix permission/versioning problems
-  - Switch to legacy launch mechanism with -Djdk.lang.Process.launchMechanism=FORK
-
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar%2363!/:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2363!/:?]
-	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.20.1-47.4.16-universal.jar%23158!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
-Caused by: java.io.IOException: Cannot run program "stty": Failed to exec spawn helper: pid: 5156, signal: 1, error: 0 (none) 
-Possible reasons:
-  - Spawn helper ran into JDK version mismatch
-  - Spawn helper ran into unexpected internal error
-  - Spawn helper was terminated by another process
-Possible solutions:
-  - Restart JVM, especially after in-place JDK updates
-  - Check system logs for JDK-related errors
-  - Re-install JDK to fix permission/versioning problems
-  - Switch to legacy launch mechanism with -Djdk.lang.Process.launchMechanism=FORK
-
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1112) ~[?:?]
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1046) ~[?:?]
-	at org.jline.utils.ExecHelper.exec(ExecHelper.java:35) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	... 4 more
-Caused by: java.io.IOException: Failed to exec spawn helper: pid: 5156, signal: 1, error: 0 (none) 
-Possible reasons:
-  - Spawn helper ran into JDK version mismatch
-  - Spawn helper ran into unexpected internal error
-  - Spawn helper was terminated by another process
-Possible solutions:
-  - Restart JVM, especially after in-place JDK updates
-  - Check system logs for JDK-related errors
-  - Re-install JDK to fix permission/versioning problems
-  - Switch to legacy launch mechanism with -Djdk.lang.Process.launchMechanism=FORK
-
-	at java.lang.ProcessImpl.forkAndExec(Native Method) ~[?:?]
-	at java.lang.ProcessImpl.<init>(ProcessImpl.java:300) ~[?:?]
-	at java.lang.ProcessImpl.start(ProcessImpl.java:231) ~[?:?]
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1078) ~[?:?]
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1046) ~[?:?]
-	at org.jline.utils.ExecHelper.exec(ExecHelper.java:35) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	... 4 more
-[17Feb2026 16:12:16.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[17Feb2026 16:12:16.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[17Feb2026 16:12:16.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[17Feb2026 16:12:17.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mosslorn  - Abandoned City]'/minecraft:overworld
-[17Feb2026 16:12:17.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mosslorn  - Abandoned City]'/minecraft:the_end
-[17Feb2026 16:12:17.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mosslorn  - Abandoned City]'/minecraft:the_nether
-[17Feb2026 16:12:17.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17Feb2026 16:12:17.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17Feb2026 16:12:17.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17Feb2026 16:12:17.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17Feb2026 16:12:17.426] [Server thread/INFO] [Framework/]: Unloading server configs...
-[17Feb2026 16:12:17.428] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
-[17Feb2026 16:12:17.430] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[17Feb2026 16:30:08.161] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.16, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[17Feb2026 16:30:08.164] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 25.0.1 by Microsoft; OS Linux arch amd64 version 6.8.0-1044-azure
+[17Feb2026 16:30:10.707] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[17Feb2026 16:30:10.906] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/hero/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[17Feb2026 16:30:11.174] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/hero/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[17Feb2026 16:30:11.545] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hero/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.16/fmlcore-1.20.1-47.4.16.jar is missing mods.toml file
+[17Feb2026 16:30:11.546] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hero/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.16/javafmllanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[17Feb2026 16:30:11.548] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hero/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.16/lowcodelanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[17Feb2026 16:30:11.549] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/hero/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.16/mclanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[17Feb2026 16:30:12.079] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[17Feb2026 16:30:14.618] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[17Feb2026 16:30:14.648] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[17Feb2026 16:30:14.669] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[17Feb2026 16:30:15.048] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Feb2026 16:30:16.464] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17Feb2026 16:30:22.576] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zdd000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[17Feb2026 16:30:24.255] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[17Feb2026 16:30:24.257] [modloading-worker-0/INFO] [Mob Control/]: Mob Control, Platform: Forge, Env: production
+[17Feb2026 16:30:24.259] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[17Feb2026 16:30:24.260] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[17Feb2026 16:30:24.334] [modloading-worker-0/INFO] [com.yourname.bloodmoon.BloodMoonMod/]: Blood Moon Mod initialized!
+[17Feb2026 16:30:24.355] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[17Feb2026 16:30:24.410] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.ysns.config.DisabledEntities.
+[17Feb2026 16:30:24.413] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.ysns.config.DisabledEntities read successfully.
+[17Feb2026 16:30:24.415] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.ysns.config.PerDimensionEntities.
+[17Feb2026 16:30:24.417] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.ysns.config.PerDimensionEntities read successfully.
+[17Feb2026 16:30:24.425] [modloading-worker-0/INFO] [ysns/]: You Shall Not Spawn's Config initialized
+[17Feb2026 16:30:24.428] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[17Feb2026 16:30:24.446] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[17Feb2026 16:30:24.447] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 12
+[17Feb2026 16:30:24.448] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 12 has been initalized!
+[17Feb2026 16:30:24.584] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/hero/config/yacl.json5'
+[17Feb2026 16:30:24.708] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.16, for MC 1.20.1 with MCP 20230612.114412
+[17Feb2026 16:30:24.709] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.16 Initialized
+[17Feb2026 16:30:25.991] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[17Feb2026 16:30:25.992] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[17Feb2026 16:30:25.996] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[17Feb2026 16:30:26.016] [main/INFO] [Spartan Weaponry/]: Updating config settings!
+[17Feb2026 16:30:26.021] [Thread-1/INFO] [Spartan Weaponry/]: Updating config settings!
+[17Feb2026 16:30:26.023] [Thread-1/INFO] [Spartan Weaponry/]: Updating config settings!
+[17Feb2026 16:30:26.024] [Thread-1/INFO] [Spartan Weaponry/]: Updating config settings!
+[17Feb2026 16:30:26.031] [Thread-1/INFO] [Spartan Weaponry/]: Updating config settings!
+[17Feb2026 16:30:26.032] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[17Feb2026 16:30:26.046] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[17Feb2026 16:30:26.238] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[17Feb2026 16:30:26.239] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[17Feb2026 16:30:26.239] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[17Feb2026 16:30:26.239] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[17Feb2026 16:30:26.239] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[17Feb2026 16:30:26.239] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[17Feb2026 16:30:26.239] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[17Feb2026 16:30:26.239] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[17Feb2026 16:30:26.239] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[17Feb2026 16:30:26.324] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[17Feb2026 16:30:26.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_craftablegunpowder] Starting version check at https://api.modrinth.com/updates/A2rTbvVd/forge_updates.json
+[17Feb2026 16:30:27.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_craftablegunpowder] Found status: OUTDATED Current: 1.1 Target: 1.1+mod
+[17Feb2026 16:30:27.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[17Feb2026 16:30:28.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[17Feb2026 16:30:28.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[17Feb2026 16:30:28.463] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.4.1 Target: null
+[17Feb2026 16:30:28.464] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17Feb2026 16:30:28.743] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17Feb2026 16:30:28.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.16 Target: null
+[17Feb2026 16:30:29.781] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/hero/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
+[17Feb2026 16:30:29.782] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/hero/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
+[17Feb2026 16:30:43.833] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/hero/tacz
+[17Feb2026 16:30:43.835] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[17Feb2026 16:30:43.835] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[17Feb2026 16:30:44.860] [main/INFO] [com.yourname.bloodmoon.BloodMoonMod/]: Blood Moon commands registered
+[17Feb2026 16:30:44.863] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[17Feb2026 16:30:45.730] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[17Feb2026 16:30:45.734] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[17Feb2026 16:30:45.772] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[17Feb2026 16:30:45.874] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[17Feb2026 16:30:45.874] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[17Feb2026 16:30:45.880] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[17Feb2026 16:30:45.881] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[17Feb2026 16:30:45.891] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[17Feb2026 16:30:45.892] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[17Feb2026 16:30:45.903] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[17Feb2026 16:30:45.903] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[17Feb2026 16:30:45.905] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[17Feb2026 16:30:45.906] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[17Feb2026 16:30:45.908] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[17Feb2026 16:30:45.908] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[17Feb2026 16:30:45.910] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[17Feb2026 16:30:45.910] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[17Feb2026 16:30:45.921] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[17Feb2026 16:30:45.921] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[17Feb2026 16:30:45.922] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[17Feb2026 16:30:45.922] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[17Feb2026 16:30:45.927] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[17Feb2026 16:30:45.927] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[17Feb2026 16:30:45.934] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[17Feb2026 16:30:45.934] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[17Feb2026 16:30:45.938] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[17Feb2026 16:30:45.938] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_smelting_silver_weapons as it's serializer returned null
+[17Feb2026 16:30:45.942] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[17Feb2026 16:30:45.942] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_blasting_copper_weapons as it's serializer returned null
+[17Feb2026 16:30:45.943] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[17Feb2026 16:30:45.944] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[17Feb2026 16:30:45.944] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[17Feb2026 16:30:45.944] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[17Feb2026 16:30:45.950] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[17Feb2026 16:30:45.950] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[17Feb2026 16:30:45.954] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[17Feb2026 16:30:45.954] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[17Feb2026 16:30:45.955] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[17Feb2026 16:30:45.955] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_smelting_copper_weapons as it's serializer returned null
+[17Feb2026 16:30:45.955] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[17Feb2026 16:30:45.956] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[17Feb2026 16:30:45.973] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[17Feb2026 16:30:45.973] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[17Feb2026 16:30:45.975] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[17Feb2026 16:30:45.975] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[17Feb2026 16:30:45.979] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[17Feb2026 16:30:45.980] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[17Feb2026 16:30:45.983] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[17Feb2026 16:30:45.983] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[17Feb2026 16:30:45.983] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[17Feb2026 16:30:45.983] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_blasting_silver_weapons as it's serializer returned null
+[17Feb2026 16:30:45.988] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 16 recipes
+[17Feb2026 16:30:46.011] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[17Feb2026 16:30:46.024] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[17Feb2026 16:30:46.061] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[17Feb2026 16:30:46.100] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[17Feb2026 16:30:46.133] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2652 advancements
+[17Feb2026 16:30:47.213] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 6.267108ms
+[17Feb2026 16:30:47.220] [main/INFO] [structurify/]: Loading Structurify config...
+[17Feb2026 16:30:47.232] [main/INFO] [structurify/]: Structurify config loaded
+[17Feb2026 16:30:47.329] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[17Feb2026 16:30:47.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[17Feb2026 16:30:47.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[17Feb2026 16:30:47.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[17Feb2026 16:30:47.573] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[17Feb2026 16:30:47.740] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[17Feb2026 16:30:47.829] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17Feb2026 16:30:47.829] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[17Feb2026 16:30:47.829] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17Feb2026 16:30:47.830] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[17Feb2026 16:30:47.911] [Server thread/INFO] [Framework/]: Loading server configs...
+[17Feb2026 16:30:47.922] [Server thread/INFO] [structurify/]: Updating registries...
+[17Feb2026 16:30:47.924] [Server thread/INFO] [structurify/]: Structure registries updated
+[17Feb2026 16:30:47.925] [Server thread/INFO] [structurify/]: Structure Sets registries updated
+[17Feb2026 16:30:47.926] [Server thread/INFO] [structurify/]: Registries updated
+[17Feb2026 16:30:47.926] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[17Feb2026 16:30:51.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[17Feb2026 16:30:52.862] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Feb2026 16:30:52.939] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Feb2026 16:30:52.956] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Feb2026 16:30:53.130] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Feb2026 16:30:53.569] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Feb2026 16:30:54.018] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Feb2026 16:30:54.515] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Feb2026 16:30:55.012] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Feb2026 16:30:55.511] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[17Feb2026 16:30:56.017] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[17Feb2026 16:30:56.511] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[17Feb2026 16:30:57.011] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[17Feb2026 16:30:57.643] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[17Feb2026 16:30:58.015] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[17Feb2026 16:30:58.513] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[17Feb2026 16:30:59.010] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[17Feb2026 16:30:59.593] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8083 ms
+[17Feb2026 16:30:59.593] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.744s)! For help, type "help"
+[17Feb2026 16:30:59.618] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[17Feb2026 16:30:59.639] [Server thread/WARN] [Mob Control/]: WARNING: Mob ignored due to missing name
+[17Feb2026 16:30:59.646] [Server thread/WARN] [Mob Control/]: WARNING: Ignoring parameter set.movement-speed
+[17Feb2026 16:30:59.646] [Server thread/ERROR] [Mob Control/]: ERROR: For input string: "0.24"
+[17Feb2026 16:30:59.651] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[17Feb2026 16:31:01.793] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2082ms or 41 ticks behind
+[17Feb2026 16:31:24.654] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7893ms or 157 ticks behind
+[17Feb2026 16:34:48.738] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: m1tchax[/127.71.128.80:42863] logged in with entity id 158 at (1277.3244017070308, 78.0, -772.9130768300037)
+[17Feb2026 16:34:48.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m1tchax joined the game
+[17Feb2026 16:36:13.286] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m1tchax moved too quickly! -8.237338872076407,-4.419999986886978,-3.6614511789316566
+[17Feb2026 16:36:33.974] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m1tchax lost connection: Timed out
+[17Feb2026 16:36:33.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m1tchax left the game
+[17Feb2026 16:39:38.789] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: m1tchax[/127.71.128.80:52751] logged in with entity id 10330 at (1270.7919751048228, 66.23152379758702, -797.7892614904649)
+[17Feb2026 16:39:38.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m1tchax joined the game
+[17Feb2026 16:40:29.508] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m1tchax moved too quickly! 8.54213974607319,2.823240724935758,4.747389692034744
+[17Feb2026 16:42:07.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m1tchax was kicked for floating too long!
+[17Feb2026 16:42:07.321] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m1tchax lost connection: Flying is not enabled on this server
+[17Feb2026 16:42:07.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m1tchax left the game
+[17Feb2026 16:43:19.970] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@63256185[id=<null>,name=m1tchax,properties={},legacy=false] (/127.71.128.80:45221): Took too long to log in
+[17Feb2026 16:43:19.971] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@63256185[id=<null>,name=m1tchax,properties={},legacy=false] (/127.71.128.80:45221) lost connection: Took too long to log in
+[17Feb2026 16:43:20.014] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[17Feb2026 16:43:33.436] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: m1tchax[/127.71.128.80:50477] logged in with entity id 24580 at (1281.195639054582, 78.79673560066871, -776.6981961945319)
+[17Feb2026 16:43:33.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m1tchax joined the game
+[17Feb2026 16:44:33.570] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: m1tchax lost connection: Timed out
+[17Feb2026 16:44:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m1tchax left the game
