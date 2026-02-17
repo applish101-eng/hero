@@ -6056,9 +6056,45 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
+  "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
-      "blaze_rod": "2026-02-15 12:24:52 +0000"
+      "has_soul_sand": "2026-02-15 12:18:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2026-02-15 12:18:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-02-15 12:20:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2026-02-15 12:20:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2026-02-15 12:20:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-02-15 12:23:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2026-02-15 12:23:07 +0000"
     },
     "done": true
   },
@@ -6074,27 +6110,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_wart_block": {
-    "criteria": {
-      "has_nether_wart": "2026-02-15 12:20:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2026-02-15 12:23:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2026-02-15 12:18:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_nether_bricks": {
-    "criteria": {
-      "has_nether_wart": "2026-02-15 12:20:59 +0000"
     },
     "done": true
   },
@@ -6104,21 +6122,9 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/misc/blaze_powder_from_blaze_head": {
-    "criteria": {
-      "has_blaze_head": "2026-02-15 12:27:52 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
       "has_nether_bricks": "2026-02-15 12:23:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/get_wither_skull": {
-    "criteria": {
-      "wither_skull": "2026-02-15 12:23:07 +0000"
     },
     "done": true
   },
@@ -6128,21 +6134,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2026-02-15 12:18:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2026-02-15 12:23:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2026-02-15 12:24:52 +0000"
     },
     "done": true
   },
@@ -6158,27 +6152,33 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "has_copper_backpack": "2026-02-15 12:29:30 +0000"
+      "blaze_rod": "2026-02-15 12:24:52 +0000"
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
-      "fortress": "2026-02-15 12:20:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/skull_banner_pattern": {
-    "criteria": {
-      "has_wither_skeleton_skull": "2026-02-15 12:23:07 +0000"
+      "has_blaze_rod": "2026-02-15 12:24:52 +0000"
     },
     "done": true
   },
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2026-02-15 12:24:52 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/misc/blaze_powder_from_blaze_head": {
+    "criteria": {
+      "has_blaze_head": "2026-02-15 12:27:52 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
+    "criteria": {
+      "has_copper_backpack": "2026-02-15 12:29:30 +0000"
     },
     "done": true
   },
